@@ -1,0 +1,142 @@
+/* === Navbar Styling === */
+.navbar {
+    background-color: #fbff00; /* Blue background */
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  /* Navbar Button styling */
+
+  .add-user-btn {
+    background-color: rgb(55, 206, 45);
+    color: #07010b;
+    border: none;
+    padding: 10px 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #e6f0ff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  }
+
+  /* Home Page styling */
+
+/* === Home Page === */
+.home {
+    padding: 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+h2{
+    margin-top: 200px;
+    background-color: rgb(235, 180, 41);
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+  .user-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 70px;
+  }
+  
+  .user-table thead {
+    background-color: #ffffff;
+    color: rgb(5, 0, 0);
+  }
+
+  .user-table td {
+    color: #f6f3f3;
+    background-color: #112350;
+  }
+  
+  .user-table tr:hover {
+    background-color: #ddac1a;
+  }
+  
+
+/* Background image */
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/application-contact-communication-connection-concept_53876-120049.jpg?t=st=1746537835~exp=1746541435~hmac=3d80b3df2ee869c4b607c5208dc22f52edeb236c8edf3d6d9ff20f867c84dd89&w=996");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 600px;
+  }
+  
+
+/* Button Styling */
+
+.btn-v,
+.btn-e,
+.btn-d {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.btn-v {
+  background-color: #dd961a;
+}
+
+.btn-v:hover {
+  background-color: #f0a938;
+  transform: scale(1.05);
+}
+
+.btn-e {
+  background-color: rgb(223, 119, 187);
+}
+
+.btn-e:hover {
+  background-color: rgb(236, 150, 207);
+  transform: scale(1.05);
+}
+
+.btn-d {
+  background-color: #e06161;
+}
+
+.btn-d:hover {
+  background-color: #f17676;
+  transform: scale(1.05);
+}
+
+/* Add User Styling */
+
