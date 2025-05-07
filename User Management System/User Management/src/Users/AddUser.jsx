@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import './AddUser.css';
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const AddUser = () => {
 
@@ -30,6 +30,9 @@ const AddUser = () => {
   return (
     <div className="add-user-container">
       <div className="form-box">
+      <div className="animated-logo">
+  <div className="animated-logo-icon">👤</div>
+</div>
         <h2 className="form-title">Register User</h2>
         <form className="user-form" onSubmit={onSubmit}>
           <div className="form-group">
@@ -65,6 +68,11 @@ const AddUser = () => {
           <button type="submit" className="register-button">
             Register
           </button>
+
+          <Link type="submit" className="cancel-button" to="/">
+            Cancel
+          </Link>
+
         </form>
       </div>
     </div>
